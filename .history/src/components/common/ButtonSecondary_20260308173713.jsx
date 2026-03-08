@@ -14,7 +14,7 @@ function ButtonSecondary({
 
   if (as === "link" && to) {
     return (
-      <Link to={to} onClick={onClick} className={classes}>
+      <Link to={to}  className={classes}>
         {children}
       </Link>
     );

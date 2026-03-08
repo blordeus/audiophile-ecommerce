@@ -15,7 +15,7 @@ function FeaturedYX1Section() {
               <source media="(min-width: 768px)" srcSet={yx1.images.tablet} />
               <img
                 src={yx1.images.mobile}
-                alt="yx1 earphones"
+                alt="yx1"
                 className="h-full w-full object-cover"
               />
             </picture>

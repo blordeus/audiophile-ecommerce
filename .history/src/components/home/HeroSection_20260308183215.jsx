@@ -13,7 +13,7 @@ function HeroSection() {
         <source media="(min-width: 768px)" srcSet={hero.images.tablet} />
         <img
           src={hero.images.mobile}
-          alt="hero image"
+          alt="h"
           className="h-full w-full object-cover object-center lg:object-right"
         />
       </picture>

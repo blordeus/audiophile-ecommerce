@@ -17,7 +17,7 @@ function FeaturedZX7Section() {
             <source media="(min-width: 768px)" srcSet={zx7Tablet} />
             <img
               src={zx7Mobile}
-              alt="zx7 speaker"
+              alt="zx"
               className="h-full w-full object-cover"
             />
           </picture>

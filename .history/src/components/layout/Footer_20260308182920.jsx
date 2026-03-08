@@ -57,10 +57,10 @@ function Footer() {
                 <img src={iconFacebook} alt="Facebook" />
               </a>
               <a href="#" aria-label="Twitter" className="transition-opacity hover:opacity-70">
-                <img src={iconTwitter} alt="Twitter" />
+                <img src={iconTwitter} alt="" />
               </a>
               <a href="#" aria-label="Instagram" className="transition-opacity hover:opacity-70">
-                <img src={iconInstagram} alt="Instagram" />
+                <img src={iconInstagram} alt="" />
               </a>
             </div>
           </div>

@@ -60,7 +60,7 @@ function Footer() {
                 <img src={iconTwitter} alt="Twitter" />
               </a>
               <a href="#" aria-label="Instagram" className="transition-opacity hover:opacity-70">
-                <img src={iconInstagram} alt="Instagram" />
+                <img src={iconInstagram} alt="" />
               </a>
             </div>
           </div>

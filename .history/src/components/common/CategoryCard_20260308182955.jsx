@@ -5,7 +5,7 @@ function CategoryCard({ title, image, to, onClick }) {
     <article className="relative rounded-lg bg-[#F1F1F1] px-6 pb-8 pt-20 text-center">
       <img
         src={image}
-        alt="{image} category"
+        alt="{image}"
         className="absolute left-1/2 top-0 w-[140px] -translate-x-1/2 -translate-y-1/2 md:w-[150px]"
       />
 

@@ -1,16 +1,82 @@
-# React + Vite
+# Audiophile E‑commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive e‑commerce storefront built as part of the Frontend Mentor
+Audiophile challenge.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a full multi‑page e‑commerce experience where users can
+browse products, view details, add items to a cart, and complete
+checkout.
 
-## React Compiler
+It focuses on clean UI architecture, responsive design, and realistic
+e‑commerce flows.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+-   Responsive design (mobile, tablet, desktop)
+-   Category browsing
+-   Product detail pages
+-   Add‑to‑cart functionality
+-   Persistent shopping cart using LocalStorage
+-   Checkout form with validation
+-   Order confirmation modal
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+-   React
+-   React Router
+-   Tailwind CSS
+-   Context API
+-   LocalStorage
+-   Vite
+
+## Project Structure
+
+src/ assets/ components/ cart/ checkout/ common/ home/ layout/ product/
+data/ hooks/ pages/ utils/ App.jsx main.jsx index.css
+
+## Running the Project
+
+Install dependencies:
+
+npm install
+
+Start development server:
+
+npm run dev
+
+Open:
+
+http://localhost:5173
+
+## Production Build
+
+npm run build
+
+Preview build:
+
+npm run preview
+
+## Deployment
+
+Recommended platforms:
+
+-   Vercel
+-   Netlify
+-   GitHub Pages
+
+## Learning Outcomes
+
+This project helped reinforce:
+
+-   React component architecture
+-   Responsive UI implementation
+-   Cart state management
+-   Form validation patterns
+-   Modal UI patterns
+-   Scalable project structure
+
+## Acknowledgements
+
+Design and challenge provided by Frontend Mentor.

@@ -18,7 +18,7 @@ function CategoryPage() {
   }, [normalizedCategory]);
 
   if (!validCategories.includes(normalizedCategory)) {
-    return <Navigate to="/" replace />;
+    return <Navigate to="/404" replace />;
   }
 
   const title =
@@ -28,7 +28,7 @@ function CategoryPage() {
     <SiteLayout>
       <CategoryHero title={title} />
       <CategoryProductList products={categoryProducts} />
-      <CategoryCardsSection className="pb-24 md:pb-32 lg:pb-40" />
+      <CategoryCardsSection className="pb-30 md:pb-24 lg:pb-40" />
     </SiteLayout>
   );
 }

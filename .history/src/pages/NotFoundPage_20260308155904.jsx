@@ -1,14 +1,14 @@
 import SiteLayout from "../components/layout/SiteLayout";
 import PageContainer from "../components/layout/PageContainer";
 
-function CheckoutPage() {
+function NotFoundPage() {
   return (
     <SiteLayout>
       <PageContainer className="py-20">
-        <h1 className="heading-2">Checkout Page</h1>
+        <h1 className="heading-2">404 Not Found</h1>
       </PageContainer>
     </SiteLayout>
   );
 }
 
-export default CheckoutPage;
+export default NotFoundPage;

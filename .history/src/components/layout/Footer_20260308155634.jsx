@@ -8,11 +8,11 @@ import iconInstagram from "../../assets/icons/icon-instagram.svg";
 
 function Footer() {
   return (
-    <footer className="mt-24 bg-black text-white md:mt-32">
+    <footer className="mt-30 bg-black text-white">
       <PageContainer>
         <div className="w-[101px] border-t-4 border-[#D87D4A]" />
 
-        <div className="flex flex-col gap-12 py-12 md:py-14 lg:py-16">
+        <div className="flex flex-col gap-12 py-13 md:py-15 lg:py-19">
           <div className="flex flex-col gap-12 lg:flex-row lg:items-start lg:justify-between">
             <Link to="/" className="shrink-0">
               <img src={logo} alt="Audiophile" />
@@ -39,7 +39,7 @@ function Footer() {
           </div>
 
           <div className="grid gap-12 lg:grid-cols-[1fr_auto] lg:items-end">
-            <div className="max-w-[540px] space-y-12">
+            <div className="max-w-[540px] space-y-14">
               <p className="body-text text-white/50">
                 Audiophile is an all in one stop to fulfill your audio needs.
                 We're a small team of music lovers and sound specialists who are

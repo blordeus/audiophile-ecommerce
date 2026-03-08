@@ -1,33 +1,27 @@
 import { Link, NavLink } from "react-router-dom";
 import PageContainer from "./PageContainer";
 import { primaryNavLinks } from "../../data/navigation";
-import logo from "../../assets/icons/logo.svg";
-import iconHamburger from "../../assets/icons/icon-hamburger.svg";
-import iconCart from "../../assets/icons/icon-cart.svg";
 
 function Header() {
   return (
     <header className="bg-[#101010] text-white">
       <PageContainer>
-        <div className="flex h-24 items-center border-b border-white/10">
-          <div className="flex flex-1 items-center lg:flex-none">
+        <div className="flex h-24 items-center justify-between border-b border-white/10">
+          <div className="flex items-center gap-10">
             <button
               type="button"
               aria-label="Open menu"
-              className="mr-10 flex lg:hidden"
+              className="flex lg:hidden"
             >
-              <img src={iconHamburger} alt="" />
+              <img src="/src/assets/icons/icon-hamburger.svg" alt="" />
             </button>
 
             <Link to="/" className="shrink-0">
-              <img src={logo} alt="Audiophile" />
+              <img src="/src/assets/icons/logo.svg" alt="Audiophile" />
             </Link>
           </div>
 
-          <nav
-            className="hidden flex-1 justify-center lg:flex"
-            aria-label="Primary navigation"
-          >
+          <nav className="hidden lg:block" aria-label="Primary navigation">
             <ul className="flex items-center gap-9">
               {primaryNavLinks.map((link) => (
                 <li key={link.href}>
@@ -46,11 +40,9 @@ function Header() {
             </ul>
           </nav>
 
-          <div className="flex flex-1 justify-end lg:flex-none">
-            <button type="button" aria-label="Open cart" className="shrink-0">
-              <img src={iconCart} alt="" />
-            </button>
-          </div>
+          <button type="button" aria-label="Open cart" className="shrink-0">
+            <img src="/src/assets/icons/icon-cart.svg" alt="" />
+          </button>
         </div>
       </PageContainer>
     </header>

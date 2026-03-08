@@ -8,7 +8,7 @@ import iconInstagram from "../../assets/icons/icon-instagram.svg";
 
 function Footer() {
   return (
-    <footer className="mt-20 bg-black text-white md:mt-24">
+    <footer className="mt-20 bg-black text-white md:mt-32">
       <PageContainer>
         <div className="w-[101px] border-t-4 border-[#D87D4A]" />
 

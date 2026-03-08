@@ -6,22 +6,20 @@ function HeroSection() {
   const { hero } = homeContent;
 
   return (
-    <section className="relative bg-[#101010] text-white">
-      {/* Background Image */}
-      <picture className="absolute inset-0 z-0">
-        <source media="(min-width: 1024px)" srcSet={hero.images.desktop} />
-        <source media="(min-width: 768px)" srcSet={hero.images.tablet} />
-        <img
-          src={hero.images.mobile}
-          alt=""
-          className="h-full w-full object-cover object-center lg:object-right"
-        />
-      </picture>
-
-      {/* Content */}
+    <section className="bg-[#101010] text-white">
       <PageContainer>
-        <div className="relative z-10 flex min-h-[600px] items-center py-24 md:min-h-[640px] lg:min-h-[632px]">
-          <div className="mx-auto max-w-[380px] text-center lg:mx-0 lg:text-left ">
+        <div className="relative min-h-[510px] overflow-hidden md:min-h-[640px] lg:min-h-[632px]">
+          <picture className="pointer-events-none absolute inset-0">
+            <source media="(min-width: 1024px)" srcSet={hero.images.desktop} />
+            <source media="(min-width: 768px)" srcSet={hero.images.tablet} />
+            <img
+              src={hero.images.mobile}
+              alt=""
+              className="h-full w-full object-cover object-center opacity-90 lg:object-right"
+            />
+          </picture>
+
+          <div className="relative z-10 mx-auto flex min-h-[510px] max-w-[380px] flex-col justify-center text-center md:min-h-[640px] lg:mx-0 lg:min-h-[632px] lg:max-w-[398px] lg:text-left">
             <p className="overline text-white/50">{hero.overline}</p>
 
             <h1 className="mt-6 text-[36px] font-bold uppercase leading-[40px] tracking-[1.29px] md:text-[56px] md:leading-[58px] md:tracking-[2px]">

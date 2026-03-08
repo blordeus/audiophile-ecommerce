@@ -68,22 +68,22 @@ function Header() {
       <MobileMenu isOpen={isMenuOpen} onClose={handleCloseMenu} />
 
       {isCartOpen ? (
-        <div className="absolute right-6 top-full z-50 mt-6 w-[327px] rounded-lg bg-white p-8 text-black shadow-lg md:right-10 md:w-[377px] xl:right-[calc((100vw-1110px)/2)]">
-          <div className="flex items-center justify-between">
-            <h2 className="heading-6">Cart (0)</h2>
-            <button
-              type="button"
-              className="body-text text-black/50 underline transition-colors hover:text-[#D87D4A]"
-            >
-              Remove all
-            </button>
-          </div>
+  <div className="absolute right-6 top-full z-50 mt-6 w-[327px] rounded-lg bg-white p-8 text-black shadow-lg md:right-10 md:w-[377px] xl:right-[calc((100vw-1110px)/2)]">
+    <div className="flex items-center justify-between">
+      <h2 className="heading-6">Cart (0)</h2>
+      <button
+        type="button"
+        className="body-text text-black/50 underline transition-colors hover:text-[#D87D4A]"
+      >
+        Remove all
+      </button>
+    </div>
 
-          <div className="mt-8">
-            <p className="body-text text-black/50">Cart items will go here.</p>
-          </div>
-        </div>
-      ) : null}
+    <div className="mt-8">
+      <p className="body-text text-black/50">Cart items will go here.</p>
+    </div>
+  </div>
+) : null}
     </header>
   );
 }

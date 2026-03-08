@@ -1,0 +1,33 @@
+:root {
+  --color-primary: #d87d4a;
+  --color-primary-light: #fbaf85;
+  --color-black: #101010;
+  --color-pure-black: #000000;
+  --color-gray: #f1f1f1;
+  --color-light-gray: #fafafa;
+  --color-white: #ffffff;
+  --color-error: #cd2c2c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  font-family: "Manrope", sans-serif;
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}

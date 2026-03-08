@@ -1,0 +1,71 @@
+@layer components {
+  .heading-1 {
+    font-size: 3.5rem;
+    line-height: 3.625rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+  }
+
+  .heading-2 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+    letter-spacing: 0.09375rem;
+    text-transform: uppercase;
+  }
+
+  .heading-3 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    letter-spacing: 0.07125rem;
+    text-transform: uppercase;
+  }
+
+  .heading-4 {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+  }
+
+  .heading-5 {
+    font-size: 1.5rem;
+    line-height: 2.0625rem;
+    font-weight: 700;
+    letter-spacing: 0.10625rem;
+    text-transform: uppercase;
+  }
+
+  .heading-6 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.080625rem;
+    text-transform: uppercase;
+  }
+
+  .body-text {
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    font-weight: 500;
+  }
+
+  .overline {
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    font-weight: 400;
+    letter-spacing: 0.625rem;
+    text-transform: uppercase;
+  }
+
+  .subtitle {
+    font-size: 0.8125rem;
+    line-height: 1.5625rem;
+    font-weight: 700;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+  }
+}

@@ -70,7 +70,7 @@ function CheckoutPage() {
     }
 
     setSubmittedOrder({
-      items: cartItems.map((item) => ({ ...item })),
+      items: cartItems,
       productTotal,
       shipping,
       vat,
